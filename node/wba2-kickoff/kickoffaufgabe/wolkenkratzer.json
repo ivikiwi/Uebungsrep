@@ -1,10 +1,10 @@
 {
-  "Name": "Burj Khalifa",
-  "Stadt": "Dubai",
-  "Höhe": "828m"
+  "name": "Burj Khalifa",
+  "stadt": "Dubai",
+  "hoehe": "828m"
 },
 {
-  "Name": "Shanghai Tower",
-  "Stadt": "Shanghai",
-  "Höhe": "632m"
+  "name": "Shanghai Tower",
+  "stadt": "Shanghai",
+  "hoehe": "632m"
 }
