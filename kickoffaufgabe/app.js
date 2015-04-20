@@ -6,7 +6,7 @@ fs.readFile(__dirname+"/wolkenkratzer.json", function(err, data) {
 
               var infos = JSON.parse(data.toString());
 
-              infos.wolkenkratzer.sort(function(a,b)) {
+              infos.wolkenkratzer.sort(function(a,b) {
                 if (a.hoehe > b.hoehe) {
                   return 1;
                 }
@@ -16,12 +16,16 @@ fs.readFile(__dirname+"/wolkenkratzer.json", function(err, data) {
                 return 0;
               });
 
-              for(var i in infos.wolkenkratzer) {
-              console.log(chalk.red('Name: ') + chalk.green(infos.wolkenkratzer[i].name));
-              console.log(chalk.red('Stadt: ') + chalk.green(infos.wolkenkratzer[i].stadt));
-              console.log(chalk.red('Höhe: ') + chalk.green(infos.wolkenkratzer[i].hoehe));
-              console.log("----------------------");
-            }
+              fs.writeFile(__dirname+"/sorted_wolkenkratzer.json", data, function(err) {
+                if (err) throw err;
 
+                for(var i in infos.wolkenkratzer) {
+                  console.log(chalk.red('Name: ') + chalk.green(infos.wolkenkratzer[i].name));
+                  console.log(chalk.red('Stadt: ') + chalk.green(infos.wolkenkratzer[i].stadt));
+                  console.log(chalk.red('Höhe: ') + chalk.green(infos.wolkenkratzer[i].hoehe));
+                  console.log("----------------------");
+                }
+
+            });
 
  });
