@@ -16,7 +16,7 @@ fs.readFile(__dirname+"/wolkenkratzer.json", function(err, data) {
                 return 0;
               });
 
-              fs.writeFile(__dirname+"/sorted_wolkenkratzer.json", data, function(err) {
+              fs.writeFile(__dirname+"/sorted_wolkenkratzer.json", JSON.stringify(infos), function(err) {
                 if (err) throw err;
 
                 for(var i in infos.wolkenkratzer) {
