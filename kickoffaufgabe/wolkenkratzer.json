@@ -1,0 +1,15 @@
+{
+  "wolkenkratzer": [
+
+    {
+      "name": "Burj Khalifa",
+      "stadt": "Dubai",
+      "hoehe": "828m"
+    },
+    {
+      "name": "Shanghai Tower",
+      "stadt": "Shanghai",
+      "hoehe": "632m"
+    }
+  ]
+}
