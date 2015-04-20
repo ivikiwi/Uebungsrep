@@ -6,6 +6,16 @@ fs.readFile(__dirname+"/wolkenkratzer.json", function(err, data) {
 
               var infos = JSON.parse(data.toString());
 
+              infos.wolkenkratzer.sort(function(a,b)) {
+                if (a.hoehe > b.hoehe) {
+                  return 1;
+                }
+                if (a.hoehe < b.hoehe) {
+                  return -1;
+                }
+                return 0;
+              });
+
               for(var i in infos.wolkenkratzer) {
               console.log(chalk.red('Name: ') + chalk.green(infos.wolkenkratzer[i].name));
               console.log(chalk.red('Stadt: ') + chalk.green(infos.wolkenkratzer[i].stadt));
