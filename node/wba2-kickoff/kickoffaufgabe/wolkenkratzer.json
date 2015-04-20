@@ -1,5 +1,10 @@
 {
-  "Name": "Burj Khalia",
+  "Name": "Burj Khalifa",
   "Stadt": "Dubai",
   "Höhe": "828m"
+},
+{
+  "Name": "Shanghai Tower",
+  "Stadt": "Shanghai",
+  "Höhe": "632m"
 }
