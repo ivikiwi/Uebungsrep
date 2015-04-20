@@ -1,0 +1,22 @@
+{
+  "name": "kickoffaufgabe",
+  "version": "1.0.0",
+  "description": "WBA2 Kickoffaufgabe - Wolkenkratzer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": ">=1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivikiwi/Uebungsrep.git"
+  },
+  "author": "ivikiwi - Phuong Thuy Duong Vo",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/ivikiwi/Uebungsrep/issues"
+  },
+  "homepage": "https://github.com/ivikiwi/Uebungsrep"
+}
