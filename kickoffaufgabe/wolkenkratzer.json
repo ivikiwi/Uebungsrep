@@ -1,15 +1,34 @@
 {
   "wolkenkratzer": [
-
+    {
+      "name": "Empire State Building",
+      "stadt": "New York City",
+      "hoehe": "381m"
+    },
+    {
+      "name": "Central Plaza",
+      "stadt": "Hongkong",
+      "hoehe": "374m"
+    },
     {
       "name": "Burj Khalifa",
       "stadt": "Dubai",
       "hoehe": "828m"
     },
     {
+      "name": "Taipei 101",
+      "stadt": "Taipei",
+      "hoehe": "508m"
+    },
+    {
+      "name": "Keangnam Hanoi Landmark Tower",
+      "stadt": "Hanoi",
+      "hoehe": "336m"
+    },
+    {
       "name": "Shanghai Tower",
       "stadt": "Shanghai",
       "hoehe": "632m"
-    }
+    },
   ]
 }
