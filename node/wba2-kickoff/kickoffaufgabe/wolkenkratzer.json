@@ -1,10 +1,15 @@
 {
-  "name": "Burj Khalifa",
-  "stadt": "Dubai",
-  "hoehe": "828m"
-},
-{
-  "name": "Shanghai Tower",
-  "stadt": "Shanghai",
-  "hoehe": "632m"
+  "wolkenkratzer": [
+
+    {
+      "name": "Burj Khalifa",
+      "stadt": "Dubai",
+      "hoehe": "828m"
+    },
+    {
+      "hame": "Shanghai Tower",
+      "stadt": "Shanghai",
+      "hoehe": "632m"
+    }
+  ]
 }
