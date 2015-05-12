@@ -6,12 +6,12 @@ var app = express();
 
 var series = [
 	{
-		name: "Once Upon a Time",
-		seasons: "4"
+		"name": "Once Upon a Time",
+		"seasons": "4"
 	},
 	{
-		name: "Pretty little liar",
-		seasons: "3"
+		"name": "Pretty little liar",
+		"seasons": "3"
 	}
 ]
 
@@ -19,7 +19,7 @@ app.get('/', function(req, res) {
 	var acceptedTypes = req.accepts(['html', 'json']);
 	switch(acceptedTypes) {
 		case 'html':
-			res.type('html').send('<h1>'+JSON.stringify(series)+'</h1>');
+			res.type('html').send('<h1>'+JSON.stringify(series[0].name)+'</h1>');
 			break;
 		case 'json':
 			res.json(series);
